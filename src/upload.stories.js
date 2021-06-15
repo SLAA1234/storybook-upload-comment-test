@@ -1,3 +1,4 @@
+import React from 'react'
 import Upload from "./upload";
 
 export default {
@@ -6,7 +7,12 @@ export default {
 }
 
 const Template = () => {
-    return <Upload />
+    return (
+        <React.Fragment>
+        <p>Upload your image here: </p>
+            <Upload />          
+        </React.Fragment>   
+    )
 }
 
 export const UploadStory = Template.bind({})
