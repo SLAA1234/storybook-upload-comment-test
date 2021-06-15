@@ -9,7 +9,7 @@ export default {
 const Template = () => {
     return (
         <React.Fragment>
-        <p>Upload your image here: </p>
+        <p>Upload your image or video here: </p>
             <Upload />          
         </React.Fragment>   
     )
